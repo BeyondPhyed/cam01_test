@@ -1,0 +1,28 @@
+  <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Opencv.js tutorial</title>
+</head>
+<style>
+    body {
+        -webkit-user-select: none; /*버튼을 오래 눌렀을 때 텍스트 선택되는 현상 방지(모바일)*/
+        overscroll-behavior: none; /*화면을 당겨서 새로고침되는 현상 방지(모바일)*/
+    }
+</style>
+<script async src="https://docs.opencv.org/4.9.0/opencv.js"></script>
+<!--script async src="./opencv.js"></script-->
+
+<body>
+    <button id="toggleStream" onclick="toggleStream()">Play</button>
+    <br>
+    <br>
+    <video id="video" style="display: none;"></video>
+    <canvas id='output'></canvas>
+</body>
+  
+    <script src="sketch.js"></script> 
+  
+    <script async src="https://beyondphyed.github.io/opencv/opencv_4.9.0_js/opencv.js" type="text/javascript"></script>
+</body>
+</html>
